@@ -748,8 +748,18 @@ input::placeholder {
     text-align: start;
 }
 
+.block-test {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 .form-label {
     margin-bottom: 10px;
+}
+
+.block-test2 {
+    position: relative;
 }
 
 .form-input {
@@ -761,7 +771,8 @@ input::placeholder {
 }
 
 .form-name {
-    display: flex;
+    position: absolute;
+    display: block;
     transform: translateY(-10%);
     top: 15%;
     font-style: normal;
