@@ -728,6 +728,18 @@ input::placeholder {
     background-position: center;
 }
 
+.modal h4 {
+    text-transform: none;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
 .form-style {
     display: flex;
     flex-direction: column;
@@ -748,7 +760,6 @@ input::placeholder {
 }
 
 .form-name {
-    position: absolute;
     display: flex;
     transform: translateY(-10%);
     top: 15%;
