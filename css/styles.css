@@ -831,6 +831,7 @@ input::placeholder {
     width: 16px;
     height: 15px;
     margin-right: 7px;
+    border: 4px solid #212121;
 }
 
 .checkbox-text {
