@@ -792,6 +792,10 @@ input::placeholder {
     padding-left: 36px;
 }
 
+.block-test:focus-within .form-input{
+    border: 1px solid #2196F3;
+}
+
 .form-name {
     position: absolute;
     display: block;
@@ -804,6 +808,10 @@ input::placeholder {
     color: #757575;
     margin-bottom: 4px;
     margin-left: 12px;
+}
+
+.block-test:focus-within .form-name {
+    fill: #2196F3;
 }
 
 .form-area {
