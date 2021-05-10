@@ -725,7 +725,7 @@ input::placeholder {
     cursor: pointer;
     margin-top: 8px;
     margin-right: 8px;
-    background: url(../images/close.png) white no-repeat;
+    background: url(../images/social/svg/close.svg) white no-repeat;
     background-position: center;
 }
 
