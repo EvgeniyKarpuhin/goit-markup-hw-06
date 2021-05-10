@@ -732,7 +732,7 @@ input::placeholder {
   position: absolute;
 }
 
-.modal-close:hover {
+.modal-close:hover .close-svg{
     fill: #2196F3;
 }
 
