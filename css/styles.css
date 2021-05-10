@@ -754,6 +754,15 @@ input::placeholder {
     flex-direction: column;
 }
 
+.form-name-type {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 4px;
+}
+
 .form-label {
     margin-bottom: 10px;
 }
@@ -782,28 +791,6 @@ input::placeholder {
     color: #757575;
     margin-bottom: 4px;
 }
-
-/* .name {
-    background-image: url(../images/social/svg/person-black.svg);
-    background-repeat: no-repeat;
-    background-position: 12px;
-}
-
-.phone {
-    background-image: url(../images/social/svg/phone-black.svg);
-    background-repeat: no-repeat;
-    background-position: 12px;
-}
-
-.mail {
-    background-image: url(../images/social/svg/email-black.svg);
-    background-repeat: no-repeat;
-    background-position: 12px;
-}
-
-.form-label:focus-within .name {
-    color: red;
-} */
 
 .form-area {
     font-family: 'Roboto';
