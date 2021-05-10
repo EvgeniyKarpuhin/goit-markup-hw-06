@@ -681,6 +681,7 @@ input::placeholder {
     background-position: 150px;
     text-align: left;
     padding-left: 29px;
+    cursor: pointer;
 }
 
 .modal-window {
