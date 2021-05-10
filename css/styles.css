@@ -794,6 +794,7 @@ input::placeholder {
 
 .block-test:focus-within .form-input{
     border: 1px solid #2196F3;
+    outline: none;
 }
 
 .form-name {
