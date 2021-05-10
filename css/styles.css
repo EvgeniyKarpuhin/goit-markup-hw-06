@@ -831,6 +831,11 @@ input::placeholder {
     resize: none;
 }
 
+.form-area:focus-within {
+    border: 1px solid #2196F3;
+    outline: none;
+}
+
 textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
