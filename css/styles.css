@@ -725,8 +725,11 @@ input::placeholder {
     cursor: pointer;
     margin-top: 8px;
     margin-right: 8px;
-    background: url(../images/social/svg/close.svg) white no-repeat;
-    background-position: center;
+    background-color: white;
+}
+
+.close-svg {
+  position: absolute;
 }
 
 .modal-close:hover {
